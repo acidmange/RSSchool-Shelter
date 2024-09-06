@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelter Main Page</title>
+  <link rel="stylesheet" href="../../assets/normalizeCss/normalize.css">
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="shortcut icon" href="../../assets/icons/pets.png" type="image/png">
+</head>
+
+<body class="body main">
+  <header class="main__header section">
+    <div class="header-wrapper wrapper">
+      <nav class="nav">
+        <a class="nav__logo" href="#">
+          <h3 class="nav__header header-primary">Cozy House</h3>
+          <p class="nav__subtitle">Shelter for pets in Boston</p>
+        </a>
+        <div class="nav__links">
+          <ul class="nav__list">
+            <li class="nav__list-item"><a class="nav__list-link_light nav__list-link_border" href="#">About the
+                shelter</a></li>
+            <li class="nav__list-item"><a class="nav__list-link" href="../pets/pets.html">Our pets</a></li>
+            <li class="nav__list-item"><a class="nav__list-link" href="#help">Help the shelter</a></li>
+            <li class="nav__list-item"><a class="nav__list-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+        <button class="nav__burger burger">
+          <span class="burger__line"></span>
+          <span class="burger__line burger__line_middle"></span>
+          <span class="burger__line"></span>
+        </button>
+        <div class="shade"></div>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="hidden">Dogs Shelter</h1>
+    <section class="friend section">
+      <div class="friend-wrapper wrapper">
+        <div class="friend-left">
+          <h2 class="friend-left__header header-light-xl">Not only people need&nbsp;a&nbsp;house</h2>
+          <p class="friend-left__text paragraph-l">We offer to give a chance to a little and nice puppy with an
+            extremely wide and open heart. He or she will
+            love you more than anybody else in the world, you will see!</p>
+          <button class="friend-left__button button-primary button" onclick="window.location.href = '#friends'"><span
+              class="button-text">Make a friend</span></button>
+        </div>
+        <div class="friend-right">
+          <img class="friend-right__image inside-img" src="../../assets/images/start-screen-puppy.png" alt="puppy">
+        </div>
+      </div>
+    </section>
+    <section class="about section">
+      <div class="about-wrapper wrapper">
+        <div class="about-left">
+          <img class="about-left__image inside-img" src="../../assets/images/about-pets.png" alt="cat and dog">
+        </div>
+        <div class="about-right">
+          <h3 class="about-right__header header-dark-l">About the shelter “Cozy House”</h3>
+          <p class="about-right__text about-right__text_first paragraph-l">Currently we have 121 dogs and 342 cats on
+            our hands and statistics
+            show that only 20% of them will find a family. The others will continue to live with us and will be waiting
+            for a lucky chance to become dearly loved.</p>
+          <p class="about-right__text paragraph-l">We feed our wards with the best food and make sure that they do not
+            get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28
+            employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of
+            the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="choose section" id="friends">
+      <div class="choose-wrapper wrapper">
+        <h3 class="choose__header header-dark-l">Our friends who are&nbsp;looking for a house</h3>
+        <div class="choose__slider slider">
+          <button class="slider__button">
+            <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
+            </svg>
+          </button>
+          <div class="slider__content">
+            <div class="slider__card card slider__first">
+              <img class="card__image" src="../../assets/images/pets-katrine.png" alt="dark-gray cat">
+              <span class="card__header header-card">Katrine</span>
+              <button class="card__button button-card button"><span class="card__button-text button-text">Learn
+                  more</span></button>
+            </div>
+            <div class="slider__card card slider__second">
+              <img class="card__image" src="../../assets/images/pets-jennifer.png" alt="white dog">
+              <span class="card__header header-card">Jennifer</span>
+              <button class="card__button button-card button"><span class="card__button-text button-text">Learn
+                  more</span></button>
+            </div>
+            <div class="slider__card card slider__third">
+              <img class="card__image" src="../../assets/images/pets-woody.png" alt="orange dog">
+              <span class="card__header header-card">Woody</span>
+              <button class="card__button button-card button"><span class="card__button-text button-text">Learn
+                  more</span></button>
+            </div>
+            <div class="pop-up hidden">
+            </div>
+            <div class="shade"></div>
+          </div>
+          <button class="slider__button slider__button_invert">
+            <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 4V2L11 2V0L14 3L11 6V4L0 4Z" fill="#292929" />
+            </svg>
+          </button>
+        </div>
+        <button class="choose__button button-primary button" onclick="window.location.href = '../pets/pets.html'"><span
+            class="button-text">Get to know the rest</span></button>
+      </div>
+    </section> -->
+
+
+    <section class="slider-section section" id="slider-section">
+      <button class="slider__button" id="slider-left-button">
+        <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
+        </svg>
+      </button>
+      <div class="slider">
+        <!-- Insert images here -->
+        <!-- <img src="" alt=""> -->
+
+      </div>
+      <button class="slider__button slider__button_invert" id="slider-right-button">
+        <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 4V2L11 2V0L14 3L11 6V4L0 4Z" fill="#292929" />
+        </svg>
+      </button>
+    </section>
+
+
+    <section class="help section" id="help">
+      <div class="help-wrapper wrapper">
+        <h3 class="help__header header-dark-l">How you can help<br>
+          our shelter</h3>
+        <div class="help__icons-grid">
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-pet-food.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Pet food</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-transportation.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Transportation</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-toys.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Toys</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-bowls-and-cups.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Bowls and cups</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-shampoos.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Shampoos</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-vitamins.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Vitamins</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-medicines.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Medicines</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-collars-leashes.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Collars / leashes</h4>
+          </div>
+          <div class="help__panel">
+            <img class="help__icon" src="../../assets/icons/icon-sleeping-area.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Sleeping areas</h4>
+          </div>
+          <div class="help__panel help__panel_hidden">
+            <img class="help__icon" src="../../assets/icons/icon-sleeping-area.svg" alt="pet food icon">
+            <h4 class="help__text header-icon">Sleeping areas</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="donation section">
+      <div class="donation-wrapper wrapper">
+        <div class="donation__left">
+          <img class="donation__img inside-img" src="../../assets/images/donation-dog.png" alt="orange dog">
+        </div>
+        <div class="donation__right">
+          <h3 class="donation__header header-dark-l">You can also make&nbsp;a&nbsp;donation</h3>
+          <span class="donation__text subheading">Name of the bank / Type of bank account</span>
+          <a class="donation__card" href="#">
+            <img class="donation__card-icon" src="../../assets/icons/credit-card.svg" alt="credit card icon">
+            <span class="donation__card-value header-icon">8380 2880 8028 8791 7435</span>
+          </a>
+          <p class="donation__subheading small-text">Legal information and lorem ipsum dolor sit amet, consectetur
+            adipiscing
+            elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et
+            vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section" id="contacts">
+    <div class="footer-wrapper wrapper">
+      <div class="footer__block footer__email footer-block">
+        <h3 class="footer__header header-light-xl header-footer">For questions and suggestions</h3>
+        <a class="footer__info footer-block__email" href="mailto:email@shelter.com">
+          <img class="footer__icon" src="../../assets/icons/icon-email.svg" alt="email icon">
+          <span class="footer__text text-icon">email@shelter.com</span>
+        </a>
+        <a class="footer__info" href="tel:+136745677554">
+          <img class="footer__icon" src="../../assets/icons/icon-phone.svg" alt="phone icon">
+          <span class="footer__text text-icon">+13 674 567 75 54</span>
+        </a>
+      </div>
+      <div class="footer__block footer__geo footer-block">
+        <h3 class="footer__header header-light-xl header-footer">We are waiting for your visit</h3>
+        <a class="footer__info footer-block__adress" href="https://maps.app.goo.gl/A8wCSHYs5fHvVko27" target="_blank">
+          <img class="footer__icon" src="../../assets/icons/icon-marker.svg" alt="adress pointer icon">
+          <span class="footer__text text-icon">1 Central Street, Boston
+            <br>
+            (entrance from the store)</span>
+        </a>
+        <a class="footer__info footer-block__info" href="https://maps.app.goo.gl/YhhCQBkYBqMsmSz78" target="_blank">
+          <img class="footer__icon" src="../../assets/icons/icon-marker.svg" alt="adress pointer icon">
+          <span class="footer__text text-icon">18 South Park, London</span>
+        </a>
+      </div>
+      <div class="footer__img">
+        <img class="inside-img footer__img-photo" src="../../assets/images/footer-puppy.png" alt="orange puppy">
+      </div>
+    </div>
+  </footer>
+  <script src="../js/common.js"></script>
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="./slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "shelter",
+  "version": "1.0.0",
+  "description": "Shelter project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --no-source-map pages/scss/app.scss:pages/css/app.css",
+    "watch": "sass --no-source-map --watch pages/scss/app.scss:pages/css/app.css"
+  },
+  "type": "module",
+  "author": "acidmange",
+  "license": "ISC"
+}
